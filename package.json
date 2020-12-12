@@ -1,18 +1,27 @@
 {
-  "name": "mvc_design",
+  "name": "Burger-Logger",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple app that allows you to take in burger suggestions add them to a list and then move to another list if selected by a consumer. This will be using: Express, Handlebars, Node and MySQL.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server"
+    "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daviddugle/Burger-Logger.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daviddugle/Burger-Logger/issues"
+  },
+  "homepage": "https://github.com/daviddugle/Burger-Logger#readme",
   "dependencies": {
-    "express": "^4.16.3",
-    "express-handlebars": "^3.0.0",
-    "mysql": "^2.16.0"
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "mysql": "^2.18.1"
   },
   "devDependencies": {
     "handlebars-helper-css": "^0.1.0"
