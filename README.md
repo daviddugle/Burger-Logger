@@ -118,7 +118,7 @@ on the app
 
 ## Photos
 
-![DeployedPhoto](https://github.com/daviddugle/Burger-Logger/blob/main/public/assets/burgerPhoto.jpg?raw=true)
+![DeployedPhoto](./public/assets/burgerPhoto.jpg)
 
 
 
