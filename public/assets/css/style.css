@@ -8,6 +8,12 @@ h1{
   font-weight: bold;
   text-align: center;
 }
+li{
+  font-size: 25px;
+}
+h2{
+  font-size: 40px;
+}
 
 li {
   padding: 5px;
@@ -38,6 +44,7 @@ li {
 }
 
 .container{
+  margin: auto;
   width: 80%;
   display: flex;
 }
@@ -61,4 +68,8 @@ li {
   button{
     color: rgb(198, 29, 35);
     background-color: rgb(255, 203, 4);
+  }
+  button:hover{
+    box-shadow: 2px 2px 15px rgb(140,198,63);
+    transition: .3s;
   }
