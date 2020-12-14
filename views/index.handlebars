@@ -7,7 +7,7 @@
 
 <section class="container">
   <div class="first">
-    <h2>Burger Suggestions</h2>
+    <h2>Prepared Burgers</h2>
     <ul>
       {{#each burgers}}
       {{#unless devoured}}
@@ -17,7 +17,7 @@
     </ul>
   </div>
   <div class="second">
-    <h2>Delicious Burgers</h2>
+    <h2>Devoured Burgers</h2>
 
     <ul>
       {{#each burgers}}
@@ -30,17 +30,11 @@
 </section>
 <div class="add">
 <h2>Add a Burger</h2>
-<form class="create-form">
+<form class="create-form" id="newBurger">
 
   <div class="form-group">
     <label for="ca">Burger Name:</label>
-    <input type="text" id="ca" name="name">
-  </div>
-
-  <div class="form-group">
-    <label for="devoured">Interested?</label><br>
-    <input type="radio" name="devoured" value="1" checked> Delicious!<br>
-    <input type="radio" name="devoured" value="0"> Suggested
+    <input type="text" id="burgerName" name="name">
   </div>
 
   <button type="submit">Add Burger</button>
