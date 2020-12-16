@@ -10,6 +10,10 @@ A simple app that allows you to take in burger suggestions add them to a list an
 
 
 
+Deployed Link:
+
+<a href='https://intense-garden-63215.herokuapp.com/' target='_blank'>Burger Time</a>
+
 
 
 
